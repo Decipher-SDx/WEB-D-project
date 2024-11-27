@@ -1,1 +1,2 @@
-This is a project for a website for restaurant.
+This project is about Web Developement.
+In this project we have created a restaurant website.
