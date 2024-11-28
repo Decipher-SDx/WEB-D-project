@@ -21,6 +21,9 @@
                         <span id="cart-total">₹0</span> 
                     </a>
                 </li>
+                <li>
+                    <button id="connect-btn" class="connect-button">register</button>
+                </li>
             </ul>
         </div>
     </section>
@@ -32,6 +35,13 @@
             <!-- Menu items will be dynamically added by JavaScript -->
         </div>
     </section>
+
+    <script>
+        document.getElementById('connect-btn').addEventListener('click', () => {
+            // Redirect to login or registration page
+            window.location.href = 'main.php';
+        });
+    </script>
 
     <section id="hero">
         <h1>Special Offers</h1>
